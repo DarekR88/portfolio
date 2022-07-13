@@ -1,11 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
-import './App.scss';
+import "./App.scss";
 import Backdrop from "./components/Backdrop/Backdrop";
 import Toolbar from "./components/Toolbar/Toolbar";
 import FirstSection from "./components/FirstSection/FirstSection";
+import SecondSection from "./components/SecondSection/SecondSection";
+import ThirdSection from "./components/ThirdSection/ThirdSection";
 
 const App = () => {
-
   const [isSideDrawerOpen, setIsSideDrawerOpen] = useState(false);
   const [scrollDir, setScrollDir] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -105,10 +106,17 @@ const App = () => {
 
   return (
     <div className="App">
-      <Toolbar />
-      <FirstSection />
+      <Toolbar
+        handleScroll={handleScroll}
+        landingRef={landingRef}
+        secondRef={secondRef}
+        thirdRef={thirdRef}
+      />
+      <FirstSection landingRef={landingRef} />
+      <SecondSection secondRef={secondRef} />
+      <ThirdSection thirdRef={thirdRef} />
     </div>
   );
-}
+};
 
 export default App;
