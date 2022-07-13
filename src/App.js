@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import './App.scss';
 import Backdrop from "./components/Backdrop/Backdrop";
 import Toolbar from "./components/Toolbar/Toolbar";
+import FirstSection from "./components/FirstSection/FirstSection";
 
 const App = () => {
 
@@ -105,6 +106,7 @@ const App = () => {
   return (
     <div className="App">
       <Toolbar />
+      <FirstSection />
     </div>
   );
 }

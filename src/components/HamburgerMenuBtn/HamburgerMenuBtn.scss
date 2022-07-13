@@ -1,5 +1,7 @@
 .burger-wrapper {
   display: flex;
+  position: relative;
+  left: 0;
   justify-content: center;
   align-items: center;
   height: 50px;
