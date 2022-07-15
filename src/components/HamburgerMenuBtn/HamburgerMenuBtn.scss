@@ -4,8 +4,6 @@
   left: 0;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  border: 0;
   background: transparent;
   margin-left: 20px;
   height: 50px;
@@ -46,9 +44,11 @@
 }
 .burger-wrapper.open .burger-btn::before {
   transform: rotate(45deg) translate(35px, -35px);
+  z-index: 300;
 }
 .burger-wrapper.open .burger-btn::after {
   transform: rotate(-45deg) translate(35px, 35px);
+  z-index: 300;
 }
 
 @media (min-width: 769px) {

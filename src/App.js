@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./App.scss";
 import Backdrop from "./components/Backdrop/Backdrop";
 import Toolbar from "./components/Toolbar/Toolbar";
+import SideDrawer from "./components/SideDrawer/SideDrawer";
 import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";
 import ThirdSection from "./components/ThirdSection/ThirdSection";
@@ -55,8 +56,6 @@ const App = () => {
 
     window.addEventListener("scroll", onScroll);
 
-    console.log(scrollDir);
-
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollDir]);
 
@@ -106,9 +105,18 @@ const App = () => {
 
   return (
     <div className="App">
+      {backdrop}
       <Toolbar
         drawerClickHandler={toggleDrawer}
         drawerOpen={isSideDrawerOpen}
+        handleScroll={handleScroll}
+        landingRef={landingRef}
+        secondRef={secondRef}
+        thirdRef={thirdRef}
+      />
+      <SideDrawer
+        show={isSideDrawerOpen}
+        drawerClickHandler={toggleDrawer}
         handleScroll={handleScroll}
         landingRef={landingRef}
         secondRef={secondRef}
