@@ -107,6 +107,8 @@ const App = () => {
   return (
     <div className="App">
       <Toolbar
+        drawerClickHandler={toggleDrawer}
+        drawerOpen={isSideDrawerOpen}
         handleScroll={handleScroll}
         landingRef={landingRef}
         secondRef={secondRef}

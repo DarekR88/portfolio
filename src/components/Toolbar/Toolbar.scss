@@ -11,10 +11,34 @@
     height: 80px;
 }
 
+.toolbar-logo {
+    position: absolute;
+    left: 0;
+}
+
 .nav-items {
     // display: flex;
     // justify-content: center;
     // align-items: center;
     position: absolute;
     right: 0;
+    margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .toolbar-logo {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .toolbar-logo {
+        position: relative;
+    }
 }
