@@ -6,6 +6,7 @@ import SideDrawer from "./components/SideDrawer/SideDrawer";
 import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";
 import ThirdSection from "./components/ThirdSection/ThirdSection";
+import SideElement from "./components/SideElement/SideElement";
 
 const App = () => {
   const [isSideDrawerOpen, setIsSideDrawerOpen] = useState(false);
@@ -125,6 +126,7 @@ const App = () => {
       <FirstSection landingRef={landingRef} />
       <SecondSection secondRef={secondRef} />
       <ThirdSection thirdRef={thirdRef} />
+      <SideElement />
     </div>
   );
 };

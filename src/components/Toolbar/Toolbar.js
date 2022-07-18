@@ -17,7 +17,7 @@ const Toolbar = (props) => {
       </div>
       <div className="nav-items">
         <button
-          className="pageButton"
+          className="drawer-button"
           onClick={() => {
             props.handleScroll(props.landingRef.current);
           }}
@@ -26,7 +26,7 @@ const Toolbar = (props) => {
         </button>
 
         <button
-          className="pageButton"
+          className="drawer-button"
           onClick={() => {
             props.handleScroll(props.secondRef.current);
           }}
@@ -35,7 +35,7 @@ const Toolbar = (props) => {
         </button>
 
         <button
-          className="pageButton"
+          className="drawer-button"
           onClick={() => {
             props.handleScroll(props.thirdRef.current);
           }}

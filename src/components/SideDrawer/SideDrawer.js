@@ -12,7 +12,7 @@ const sideDrawer = (props) => {
       <ul>
         <li>
           <button
-            className="drawerButton"
+            className="drawer-nav-buttons"
             onClick={() => {
               props.drawerClickHandler();
               props.handleScroll(props.landingRef.current);
@@ -23,7 +23,7 @@ const sideDrawer = (props) => {
         </li>
         <li>
           <button
-            className="drawerButton"
+            className="drawer-nav-buttons"
             onClick={() => {
               props.drawerClickHandler();
               props.handleScroll(props.secondRef.current);
@@ -34,7 +34,7 @@ const sideDrawer = (props) => {
         </li>
         <li>
           <button
-            className="drawerButton"
+            className="drawer-nav-buttons"
             onClick={() => {
               props.drawerClickHandler();
               props.handleScroll(props.thirdRef.current);
