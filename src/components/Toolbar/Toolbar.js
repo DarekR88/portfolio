@@ -34,10 +34,19 @@ const Toolbar = (props) => {
           About
         </button>
 
-        <button
+                <button
           className="drawer-button"
           onClick={() => {
             props.handleScroll(props.thirdRef.current);
+          }}
+        >
+          Projects
+        </button>
+
+        <button
+          className="drawer-button"
+          onClick={() => {
+            props.handleScroll(props.fourthRef.current);
           }}
         >
           Contact

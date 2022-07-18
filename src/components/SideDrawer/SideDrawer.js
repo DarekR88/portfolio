@@ -40,6 +40,17 @@ const sideDrawer = (props) => {
               props.handleScroll(props.thirdRef.current);
             }}
           >
+            Projects
+          </button>
+        </li>
+        <li>
+          <button
+            className="drawer-nav-buttons"
+            onClick={() => {
+              props.drawerClickHandler();
+              props.handleScroll(props.fourthRef.current);
+            }}
+          >
             Contact
           </button>
         </li>

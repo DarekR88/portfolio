@@ -7,6 +7,7 @@ import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";
 import ThirdSection from "./components/ThirdSection/ThirdSection";
 import SideElement from "./components/SideElement/SideElement";
+import FourthSection from "./components/FourthSection/FourthSection";
 
 const App = () => {
   const [isSideDrawerOpen, setIsSideDrawerOpen] = useState(false);
@@ -63,6 +64,7 @@ const App = () => {
   const landingRef = useRef(null);
   const secondRef = useRef(null);
   const thirdRef = useRef(null);
+  const fourthRef = useRef(null);
 
   const handleScroll = (ref) => {
     window.scrollTo({
@@ -114,6 +116,7 @@ const App = () => {
         landingRef={landingRef}
         secondRef={secondRef}
         thirdRef={thirdRef}
+        fourthRef={fourthRef}
       />
       <SideDrawer
         show={isSideDrawerOpen}
@@ -122,10 +125,12 @@ const App = () => {
         landingRef={landingRef}
         secondRef={secondRef}
         thirdRef={thirdRef}
+        fourthRef={fourthRef}
       />
       <FirstSection landingRef={landingRef} />
       <SecondSection secondRef={secondRef} />
       <ThirdSection thirdRef={thirdRef} />
+      <FourthSection fourthRef={fourthRef} />
       <SideElement />
     </div>
   );
