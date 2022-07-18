@@ -8,6 +8,7 @@
   margin-left: 20px;
   height: 50px;
   width: 60px;
+  transition: all .5s ease-in-out;
 }
 
 .burger-btn {
@@ -37,6 +38,9 @@
   }
 }
 
+.burger-wrapper.open {
+  transform: translateX(115px);
+}
 
 .burger-wrapper.open .burger-btn {
   transform: translateX(-50px);
