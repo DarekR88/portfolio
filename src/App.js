@@ -8,6 +8,7 @@ import SecondSection from "./components/SecondSection/SecondSection";
 import ThirdSection from "./components/ThirdSection/ThirdSection";
 import SideElement from "./components/SideElement/SideElement";
 import FourthSection from "./components/FourthSection/FourthSection";
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   const [isSideDrawerOpen, setIsSideDrawerOpen] = useState(false);
@@ -136,6 +137,7 @@ const App = () => {
         fourthRef={fourthRef}
       />
       <SideElement />
+      <Footer />
     </div>
   );
 };

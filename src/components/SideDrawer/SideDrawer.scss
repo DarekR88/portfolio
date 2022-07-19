@@ -39,30 +39,32 @@
   color: orange;
 }
 
-.sideDrawerCloseButton {
-  color: white;
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 24px;
-  width: 30px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  padding-right: 25px;
-  box-sizing: border-box;
-  font-size: 3rem;
-}
+// .sideDrawerCloseButton {
+//   color: white;
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   height: 24px;
+//   width: 30px;
+//   background: transparent;
+//   border: none;
+//   cursor: pointer;
+//   padding: 0;
+//   padding-right: 25px;
+//   box-sizing: border-box;
+//   font-size: 3rem;
+// }
 
 .drawer-nav-buttons {
   border: 2px solid orange; 
   // margin-top: 25px;
-  width: 100px;
+  width: 150px;
   padding: 5px;
-  border-radius: 5px;
+  font-size: 1.75rem; 
+  background: transparent;
   color: orange;
-  background: none;
+  border: 2px solid orange;
+  border-radius: 5px; 
 }
 
 @media (min-width: 769) {
