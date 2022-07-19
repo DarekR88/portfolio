@@ -17,9 +17,10 @@
 .side-drawer ul {
   height: 100%;
   list-style: none;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
 }
 
@@ -54,9 +55,13 @@
   font-size: 3rem;
 }
 
-.drawer-nav-button {
-  border: none; 
-  color: white;
+.drawer-nav-buttons {
+  border: 2px solid orange; 
+  // margin-top: 25px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  color: orange;
   background: none;
 }
 
