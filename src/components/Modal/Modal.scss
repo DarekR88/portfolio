@@ -1,0 +1,74 @@
+.modal {
+  position: fixed;
+  height: 300px; 
+  width: 500px; 
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -250px;
+  z-index: 150;
+  background-color: #282b30;
+  padding: 50px;
+  border-radius: 10px;
+  transition: all .5s ease-in-out;
+}
+
+.modal .hide {
+  opacity: 0;
+}
+
+.modal .show {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
+.emailForm {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+
+}
+
+.modal-imput {
+  width: 400px;
+  background: #424549
+}
+
+.sendButton {
+  border: 2px solid orange; 
+  margin-top: 25px;
+  width: 400px;
+  padding: 5px;
+  border-radius: 5px;
+  color: orange;
+  background: none;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 2px solid orange; 
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: orange;
+  background: none;
+}
+
+.message-area {
+  height: 75px;
+}
+
+// @media (max-width: 768px) {
+//   .modal {
+//       height: 300px; 
+//       width: 500px;
+//       top: 50%;
+//       left: 0;
+//       margin-top: -150px;
+//       margin-left: -250px;
+//   }
+// }

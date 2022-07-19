@@ -130,7 +130,11 @@ const App = () => {
       <FirstSection landingRef={landingRef} />
       <SecondSection secondRef={secondRef} />
       <ThirdSection thirdRef={thirdRef} />
-      <FourthSection fourthRef={fourthRef} />
+      <FourthSection
+        modalOpen={modalOpen}
+        toggleModal={toggleModal}
+        fourthRef={fourthRef}
+      />
       <SideElement />
     </div>
   );
