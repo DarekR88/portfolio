@@ -1,6 +1,7 @@
 import React from "react";
 import "./FourthSection.scss";
 import Modal from "../Modal/Modal";
+import Footer from "../Footer/Footer";
 
 const FourthSection = (props) => {
   let modal;
@@ -16,6 +17,7 @@ const FourthSection = (props) => {
               projects. Send me a message and I'll get back to you as soon as possible.
           </p>
           <button onClick={props.toggleModal} className="modal-button">Contact Me</button>
+          <Footer />
       </div>
   );
 };
