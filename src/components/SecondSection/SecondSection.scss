@@ -3,5 +3,30 @@
   height: 100vh;
   color: white;
   background-color: #1e2124;
-  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .carousel-blurbs {
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-left: 30px;
+  }
+  .carousel-blurbs p {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .second-section {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .carousel-blurbs {
+    margin: 10px 20px;
+  }
+  .carousel-blurbs p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
 }
