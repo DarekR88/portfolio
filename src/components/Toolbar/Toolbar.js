@@ -3,8 +3,17 @@ import "./Toolbar.scss";
 import HamburgerMenuBtn from "../HamburgerMenuBtn/HamburgerMenuBtn";
 
 const Toolbar = (props) => {
+
+  let toolbarClasses = "toolbar";
+
+  if (props.show) {
+    toolbarClasses = "toolbar hide";
+  } else {
+    toolbarClasses = "toolbar show";
+  }
+
   return (
-    <header className="toolbar">
+    <header className={toolbarClasses}>
       <HamburgerMenuBtn toggleDrawer={props.drawerClickHandler} drawerOpen={props.drawerOpen} />
       <div className="toolbar-logo">
         <p

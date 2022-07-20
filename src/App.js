@@ -111,6 +111,8 @@ const App = () => {
     <div className="App">
       {backdrop}
       <Toolbar
+        show={scrollDir}
+        scrollPosition={scrollPosition}
         drawerClickHandler={toggleDrawer}
         drawerOpen={isSideDrawerOpen}
         handleScroll={handleScroll}
