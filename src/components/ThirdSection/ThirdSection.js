@@ -12,6 +12,9 @@ const ThirdSection = (props) => {
           <p className="card-blurb">
             Application that allows a user to update front end styling.
           </p>
+          <p className="technologies">
+            React
+          </p>
           <a
             href="https://github.com/DarekR88/cafe-del-sol"
             className="card-link"
@@ -27,6 +30,9 @@ const ThirdSection = (props) => {
             Application that pulls multiple sets of data from an api and graphs
             them together using Recharts
           </p>
+          <p className="technologies">
+            React, Redux, Recharts
+          </p>
           <a
             href="https://github.com/DarekR88/eog-react-visualization"
             className="card-link"
@@ -40,6 +46,9 @@ const ThirdSection = (props) => {
           <p className="card-title">React Portfolio</p>
           <p className="card-blurb">
             Portfolio created with React and react-image-gallery.
+          </p>
+          <p className="technologies">
+            React, react-image-gallery
           </p>
           <a
             href="https://github.com/DarekR88/portfolio"
