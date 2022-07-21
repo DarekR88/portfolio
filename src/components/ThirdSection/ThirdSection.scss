@@ -32,9 +32,19 @@
 
 .card-title {
   font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-blurb {
+  margin-bottom: 15px;
 }
 
 .card-link {
   text-decoration: none;
   color: orange;
+}
+
+.repo-icon {
+  height: 30px;
+  // margin-bottom: 0;
 }

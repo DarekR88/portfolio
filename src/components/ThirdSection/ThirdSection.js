@@ -1,5 +1,6 @@
 import React from "react";
 import "./ThirdSection.scss";
+import githubIcon from "../../static/icons/github_icon.svg";
 
 const ThirdSection = (props) => {
   return (
@@ -14,8 +15,10 @@ const ThirdSection = (props) => {
           <a
             href="https://github.com/DarekR88/cafe-del-sol"
             className="card-link"
+            target="_blank"
+            rel="noreferrer noopener"
           >
-            repository
+            <img className="repo-icon" src={githubIcon} alt="github icon" />
           </a>
         </div>
         <div className="project-card">
@@ -27,8 +30,10 @@ const ThirdSection = (props) => {
           <a
             href="https://github.com/DarekR88/eog-react-visualization"
             className="card-link"
+            target="_blank"
+            rel="noreferrer noopener"
           >
-            repository
+            <img className="repo-icon" src={githubIcon} alt="github icon" />
           </a>
         </div>
         <div className="project-card">
@@ -36,8 +41,13 @@ const ThirdSection = (props) => {
           <p className="card-blurb">
             Portfolio created with React and react-image-gallery.
           </p>
-          <a href="https://github.com/DarekR88/portfolio" className="card-link">
-            repository
+          <a
+            href="https://github.com/DarekR88/portfolio"
+            className="card-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="repo-icon" src={githubIcon} alt="github icon" />
           </a>
         </div>
       </div>
