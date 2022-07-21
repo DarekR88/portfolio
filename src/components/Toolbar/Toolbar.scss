@@ -32,6 +32,11 @@
     border: 2px solid orange;
     border-radius: 5px; 
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.drawer-button:hover {
+  transform: scale(1.1);
 }
 
 .toolbar.hide {
