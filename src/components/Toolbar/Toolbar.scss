@@ -23,10 +23,9 @@
 }
 
 .drawer-button {
-    height: 40px;
-    padding: 0 5px;
-    margin-left: 15px;
-    font-size: 1.5rem; 
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 1.25rem; 
     background: transparent;
     color: orange;
     border: 2px solid orange;
@@ -36,7 +35,7 @@
 }
 
 .drawer-button:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .toolbar.hide {
