@@ -28,39 +28,12 @@
   margin: .5rem 0;
 }
 
-.side-drawer a {
-  color: blue;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-.side-drawer a:hover,
-.side-drawer a:active {
-  color: orange;
-}
-
-// .sideDrawerCloseButton {
-//   color: white;
-//   position: fixed;
-//   top: 0;
-//   right: 0;
-//   height: 24px;
-//   width: 30px;
-//   background: transparent;
-//   border: none;
-//   cursor: pointer;
-//   padding: 0;
-//   padding-right: 25px;
-//   box-sizing: border-box;
-//   font-size: 3rem;
-// }
-
 .drawer-nav-buttons {
   border: 2px solid orange; 
   // margin-top: 25px;
-  width: 150px;
+  width: 100px;
   padding: 5px;
-  font-size: 1.75rem; 
+  font-size: 1.25rem; 
   background: transparent;
   color: orange;
   border: 2px solid orange;
