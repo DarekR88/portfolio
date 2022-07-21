@@ -7,12 +7,18 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <p className="footer-blurb">Created by Darek Radke</p>
-      <a href="https://github.com/DarekR88" rel="noreferrer" className="side-a">
+      <a
+        href="https://github.com/DarekR88"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="side-a"
+      >
         <img className="svg-icon" src={githubIcon} alt="github icon" />
       </a>
       <a
         href="https://www.linkedin.com/in/darek-radke-aa26b7173/"
-        rel="noreferrer"
+        target="_blank"
+        rel="noreferrer noopener"
         className="side-a"
       >
         <img className="svg-icon" src={linkedinIcon} alt="linkedin icon" />

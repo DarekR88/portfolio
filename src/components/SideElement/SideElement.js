@@ -8,14 +8,20 @@ const SideElement = (props) => {
     <div className="side-element-wrapper">
       <ul>
         <li>
-          <a href="mailto:darekradke2@gmail.com" className="email-link">
+          <a
+            href="mailto:darekradke2@gmail.com"
+            className="email-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             Darekradke2@gmail.com
           </a>
         </li>
         <li>
           <a
             href="https://github.com/DarekR88"
-            rel="noreferrer"
+            target="_blank"
+            rel="noreferrer noopener"
             className="side-a"
           >
             <img className="svg-icon" src={githubIcon} alt="github icon" />
@@ -24,7 +30,8 @@ const SideElement = (props) => {
         <li>
           <a
             href="https://www.linkedin.com/in/darek-radke-aa26b7173/"
-            rel="noreferrer"
+            target="_blank"
+            rel="noreferrer noopener"
             className="side-a"
           >
             <img className="svg-icon" src={linkedinIcon} alt="linkedin icon" />
