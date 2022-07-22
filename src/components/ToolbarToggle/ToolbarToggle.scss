@@ -1,0 +1,14 @@
+.toolbar-toggle {
+  position: fixed;
+  top: 0;
+  background: transparent;
+  height: 75px;
+  width: 100%;
+  z-index: 275;
+}
+
+@media (max-width: 768px) {
+  .toolbar-toggle {
+    display: none;
+  }
+}

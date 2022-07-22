@@ -9,6 +9,7 @@ import ThirdSection from "./components/ThirdSection/ThirdSection";
 import SideElement from "./components/SideElement/SideElement";
 import FourthSection from "./components/FourthSection/FourthSection";
 import Footer from "./components/Footer/Footer"
+import ToolbarToggle from "./components/ToolbarToggle/ToolbarToggle";
 
 const App = () => {
   const [isSideDrawerOpen, setIsSideDrawerOpen] = useState(false);
@@ -121,6 +122,7 @@ const App = () => {
         thirdRef={thirdRef}
         fourthRef={fourthRef}
       />
+      <ToolbarToggle hoverToggle={setScrollDir} />
       <SideDrawer
         show={isSideDrawerOpen}
         drawerClickHandler={toggleDrawer}
