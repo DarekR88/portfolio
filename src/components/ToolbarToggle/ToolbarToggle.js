@@ -5,7 +5,6 @@ const ToolbarToggle = (props) => {
 
   const hoverLog = () => {
     props.hoverToggle(false)
-    console.log("hello");
   };
 
   return (
