@@ -24,7 +24,6 @@
 .project-card {
   position: relative;
   border-radius: 5px;
-  height: 175px;
   max-width: 400px;
   padding: 20px;
   margin-left: 25px;
@@ -51,5 +50,13 @@
   position: absolute;
   top: 0;
   right: 0;
+  margin: 10px;
+}
+
+.folder-icon {
+  height: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
   margin: 10px;
 }

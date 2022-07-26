@@ -1,6 +1,7 @@
 import React from "react";
 import "./ThirdSection.scss";
 import githubIcon from "../../static/icons/github_icon.svg";
+import folderIcon from "../../static/icons/folder-icon.svg";
 
 const ThirdSection = (props) => {
   return (
@@ -8,6 +9,7 @@ const ThirdSection = (props) => {
       <p className="section-title">Projects</p>
       <div className="card-wrapper">
         <div className="project-card">
+          <img className="folder-icon" src={folderIcon} alt="folder icon" />
           <p className="card-title">Custom CMS</p>
           <p className="card-blurb">
             Application that allows a user to update front end styling.
@@ -25,6 +27,7 @@ const ThirdSection = (props) => {
           </a>
         </div>
         <div className="project-card">
+        <img className="folder-icon" src={folderIcon} alt="folder icon" />
           <p className="card-title">Data Graphing Application</p>
           <p className="card-blurb">
             Application that pulls multiple sets of data from an api and graphs
@@ -43,6 +46,7 @@ const ThirdSection = (props) => {
           </a>
         </div>
         <div className="project-card">
+        <img className="folder-icon" src={folderIcon} alt="folder icon" />
           <p className="card-title">React Portfolio</p>
           <p className="card-blurb">
             Portfolio created with React and react-image-gallery.

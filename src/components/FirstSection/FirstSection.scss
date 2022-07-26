@@ -1,16 +1,27 @@
 .first-section {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     color: white;
-    background-color: #B3B3B3;
+    background-color: #1e2124;
     flex-direction: column;
 }
 
 .animated-name {
     display: flex;
-    font-size: 2rem;
+    font-size: 8rem;
+}
+
+.intro {
+    font-size: 5rem;
+    color: white;
+}
+
+.name {
+    font-size: 8rem;
+    color: white
 }
 
 .blurb {

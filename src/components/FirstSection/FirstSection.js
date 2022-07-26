@@ -4,7 +4,7 @@ import "./FirstSection.scss";
 const FirstSection = (props) => {
   return (
     <div className="first-section" ref={props.landingRef}>
-      <div className="animated-name">
+      {/* <div className="animated-name">
         <p className="firstL">D</p>
         <p className="secondL">A</p>
         <p className="thirdL">R</p>
@@ -15,7 +15,9 @@ const FirstSection = (props) => {
         <p className="eighthL">D</p>
         <p className="ninthL">K</p>
         <p className="tenthL">E</p>
-    </div >
+    </div > */}
+        <p className="intro">Hi, I'm</p>
+        <p className="name">Darek Radke</p>
         <p className="blurb">Independent website developer.</p> 
     </div>
   );
