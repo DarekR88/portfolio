@@ -15,7 +15,7 @@ const ThirdSection = (props) => {
             Application that allows a user to update front end styling.
           </p>
           <p className="technologies">
-            React
+            JavaScript, React 
           </p>
           <a
             href="https://github.com/DarekR88/cafe-del-sol"
@@ -34,7 +34,7 @@ const ThirdSection = (props) => {
             them together using Recharts
           </p>
           <p className="technologies">
-            React, Redux, Recharts
+            JavaScript, React, Redux, Recharts
           </p>
           <a
             href="https://github.com/DarekR88/eog-react-visualization"
@@ -52,7 +52,7 @@ const ThirdSection = (props) => {
             Portfolio created with React and react-image-gallery.
           </p>
           <p className="technologies">
-            React, react-image-gallery
+            JavaScript, React, react-image-gallery
           </p>
           <a
             href="https://github.com/DarekR88/portfolio"
