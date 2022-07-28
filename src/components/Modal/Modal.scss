@@ -1,7 +1,7 @@
 .modal {
   position: fixed;
-  height: 350px; 
-  width: 500px; 
+  // height: 350px; 
+  // width: 500px; 
   top: 50%;
   left: 50%;
   margin-top: -150px;
@@ -26,12 +26,14 @@
   color: white;
   display: flex;
   flex-direction: column;
-  width: 550px;
   font-size: 1.25rem;
 }
 
 .modal-imput {
   width: 400px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
   background: #424549
 }
 
@@ -61,6 +63,8 @@
 
 .message-area {
   height: 75px;
+  resize: none;
+  overflow-y: auto;
 }
 
 input {
