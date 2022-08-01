@@ -5,11 +5,16 @@
   background-color: #1e2124;
 }
 
+.second-section-title {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 2.5rem;
+}
+
 @media (min-width: 768px) {
   .carousel-blurbs {
-    margin-top: 80px;
-    margin-right: 150px;
-    margin-left: 30px;
+    margin-top: 50px;
+
   }
   .carousel-blurbs p {
     margin-bottom: 20px;

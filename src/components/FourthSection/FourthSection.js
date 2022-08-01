@@ -12,6 +12,7 @@ const FourthSection = (props) => {
   return (
       <div className="fourth-section" ref={props.fourthRef}>
           {modal}
+          <p className="fourth-title">Contact</p>
           <p className="contact-me">I am always looking for the best fit for my skill set and to collaborate on intersting
               projects. Send me a message and I'll get back to you as soon as possible.
           </p>
