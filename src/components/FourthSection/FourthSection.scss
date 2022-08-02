@@ -37,3 +37,11 @@
 .modal-button:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+
+  .contact-me {
+    font-size: 1.5rem;
+  }
+
+}
