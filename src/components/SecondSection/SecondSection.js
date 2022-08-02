@@ -13,6 +13,11 @@ const SecondSection = (props) => {
             In a world full of varying devices responsive web design is a very
             important aspect of my development approach.
           </p>
+          <ul>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Sass</li>
+          </ul>
         </div>
       </div>
     </div>
