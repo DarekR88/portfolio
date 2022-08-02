@@ -9,10 +9,15 @@
 
 @media (min-width: 768px) {
   .carousel {
-    margin-top: 80px;
     position: relative;
     left: 0;
     max-width: 650px;
     margin-left: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    position: relative;
   }
 }
