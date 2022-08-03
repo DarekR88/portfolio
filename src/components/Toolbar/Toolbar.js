@@ -16,13 +16,11 @@ const Toolbar = (props) => {
     <header className={toolbarClasses}>
       <HamburgerMenuBtn toggleDrawer={props.drawerClickHandler} drawerOpen={props.drawerOpen} />
       <div className="toolbar-logo">
-        <p
-          onClick={() => {
-            props.handleScroll(props.landingRef.current);
-          }}
+          <a
+          href="https://www.darekradke.com"
         >
           DAREK RADKE
-        </p>
+        </a>
       </div>
       <div className="nav-items">
         <button
