@@ -18,7 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 25px 50px 0;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   // margin-top: 80px;
 }
@@ -31,6 +31,11 @@
   margin-left: 25px;
   background: #36393e;
   margin-bottom: 25px;
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .card-title {
@@ -49,7 +54,6 @@
 
 .repo-icon {
   height: 30px;
-  position: absolute;
   top: 0;
   right: 0;
   margin: 10px;
@@ -60,5 +64,4 @@
   position: relative;
   top: 0;
   left: 0;
-  margin: 10px;
 }
