@@ -9,7 +9,7 @@ const SecondSection = (props) => {
       <div className="carousel-and-blurbs">
         <Carousel />
         <div className="carousel-blurbs">
-          <p>
+          <p className="about-paragraph">
             In a world full of varying devices responsive web design is a very
             important aspect of my development approach.
           </p>
