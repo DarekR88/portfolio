@@ -9,16 +9,6 @@ const SideElement = (props) => {
       <ul>
         <li>
           <a
-            href="mailto:darekradke2@gmail.com"
-            className="email-link"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Darekradke2@gmail.com
-          </a>
-        </li>
-        <li>
-          <a
             href="https://github.com/DarekR88"
             target="_blank"
             rel="noreferrer noopener"
@@ -35,6 +25,16 @@ const SideElement = (props) => {
             className="side-a"
           >
             <img className="svg-icon" src={linkedinIcon} alt="linkedin icon" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:darekradke2@gmail.com"
+            className="email-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Darekradke2@gmail.com
           </a>
         </li>
         {/* <li><a href="" rel="noreferrer" className="side-a">Contact</a></li> */}
