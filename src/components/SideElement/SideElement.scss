@@ -23,12 +23,13 @@
 .email-link {
   color: orange;
   // margin-left: 15px;
-  letter-spacing: 2px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
   margin-bottom: 25px;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 @media (max-width: 768px) {
