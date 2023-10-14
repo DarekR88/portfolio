@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import "./App.scss";
+import "./Global.scss";
 import Backdrop from "./components/Backdrop/Backdrop";
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";

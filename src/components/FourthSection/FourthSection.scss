@@ -1,33 +1,32 @@
+@import "../../Global.scss";
+
 .fourth-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  color: white;
-  background-color: #1e2124;
+  // height: 100vh;
+  // color: white;
+  background-color: $background-primary;
   flex-direction: column;
-  padding-bottom: 150px;
-}
-
-.fourth-title {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 30px;
+  // padding-bottom: 150px;
+  // border: 1px solid lime;
 }
 
 .contact-me {
-  color: white;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0px 100px;
-  margin-bottom: 40px;
+  // color: white;
+  // font-size: 20px;
+  // font-weight: 400;
+  // margin: 0px 100px;
+  // margin-bottom: 40px;
   max-width: 850px;
 }
 
 .modal-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid orange; 
-  margin-top: 25px;
+  margin-top: 80px;
   padding: 12px 20px;
   font-size: 18px; 
   background: transparent;
@@ -42,10 +41,9 @@
   background-color: rgba(255, 165, 0, .2);
 }
 
-@media (max-width: 768px) {
-
-  .contact-me {
-    font-size: 1.5rem;
+.contact-me {
+  
+  @media (min-width: $md) {
+    max-width: 600px;
   }
-
 }

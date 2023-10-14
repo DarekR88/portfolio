@@ -1,23 +1,38 @@
 import React from "react";
 import "./SecondSection.scss";
 import Carousel from "../Carousel/Carousel";
+import SectionTitle from "../SectionTitle/SectionTitle";
+import useWindowSize from "../../hooks/useWindowSize";
 
 const SecondSection = (props) => {
+  const { width } = useWindowSize();
+
   return (
     <div className="second-section" ref={props.secondRef}>
-      <p className="second-section-title">About</p>
-      <div className="carousel-and-blurbs">
-        <Carousel />
-        <div className="carousel-blurbs">
-          <p className="about-paragraph">
-            In a world full of varying devices responsive web design is a very
-            important aspect of my development approach.
-          </p>
-          <ul>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>Sass</li>
-          </ul>
+      <div className="section-container">
+        <SectionTitle title="About" type="left" />
+        {/* <p className="section-title left">About</p> */}
+        <div className="content-container">
+          <div className="description-block">
+            {/* {width < 768 && <Carousel className="about-carousel" />} */}
+
+            <p className="about-p text">
+              Hi, my name is Darek Radke. I am self-motivated and passionate
+              about creating well-balanced UX/UI experiences. In the constantly
+              evolving world of website development, being up-to-date on the
+              latest technologies and methods is a big part of my programming
+              approach. I also enjoy cooking and road trips.
+            </p>
+            <ul className="skill-list">
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>MongoDB</li>
+              <li>Sass</li>
+              <li>TypeScript</li>
+            </ul>
+          </div>
+          {/* {width >= 768 && <Carousel className="about-carousel" />} */}
         </div>
       </div>
     </div>

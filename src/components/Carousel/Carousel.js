@@ -18,7 +18,7 @@ const images = [
   },
 ];
 
-const Carousel = () => {
+const Carousel = ({ className }) => {
   // const imageList = images.map((img, i) => {
   //   return (
   //     <img key={`image-${i}`} src={img.original} className="c-image" />
@@ -26,7 +26,7 @@ const Carousel = () => {
   // });
 
   return (
-    <div className="carousel">
+    <div className={`carousel ${className ? className : ""}`}>
       <ImageGallery
         items={images}
         autoPlay={true}
