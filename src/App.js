@@ -126,12 +126,12 @@ const App = () => {
         secondRef={secondRef}
         thirdRef={thirdRef}
         fourthRef={fourthRef}
-        lightDark={lightDark}
+        darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
       <ToolbarToggle
         hoverToggle={setScrollDir}
-        lightDark={lightDark}
+        darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
       <SideDrawer
@@ -142,29 +142,29 @@ const App = () => {
         secondRef={secondRef}
         thirdRef={thirdRef}
         fourthRef={fourthRef}
-        lightDark={lightDark}
+        darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
       <FirstSection
         landingRef={landingRef}
-        lightDark={lightDark}
+        darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
       <SecondSection
         secondRef={secondRef}
-        lightDark={lightDark}
+        darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
       <ThirdSection
         thirdRef={thirdRef}
-        lightDark={lightDark}
+        darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
       <FourthSection
         modalOpen={modalOpen}
         toggleModal={toggleModal}
         fourthRef={fourthRef}
-        lightDark={lightDark}
+        darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
       <SideElement />
