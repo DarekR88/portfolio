@@ -8,7 +8,7 @@ import SecondSection from "./components/SecondSection/SecondSection";
 import ThirdSection from "./components/ThirdSection/ThirdSection";
 import SideElement from "./components/SideElement/SideElement";
 import FourthSection from "./components/FourthSection/FourthSection";
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer";
 import ToolbarToggle from "./components/ToolbarToggle/ToolbarToggle";
 
 const App = () => {
@@ -16,6 +16,7 @@ const App = () => {
   const [scrollDir, setScrollDir] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [modalOpen, setModalOpen] = useState(false);
+  const [darkLight, setDarkLight] = useState(false);
 
   const toggleModal = () => {
     setModalOpen(!modalOpen);
@@ -24,6 +25,10 @@ const App = () => {
   const getScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);
+  };
+
+  const toggleDarkLight = () => {
+    setDarkLight(!darkLight);
   };
 
   useEffect(() => {
@@ -121,8 +126,14 @@ const App = () => {
         secondRef={secondRef}
         thirdRef={thirdRef}
         fourthRef={fourthRef}
+        lightDark={lightDark}
+        toggleDarkLight={toggleDarkLight}
       />
-      <ToolbarToggle hoverToggle={setScrollDir} />
+      <ToolbarToggle
+        hoverToggle={setScrollDir}
+        lightDark={lightDark}
+        toggleDarkLight={toggleDarkLight}
+      />
       <SideDrawer
         show={isSideDrawerOpen}
         drawerClickHandler={toggleDrawer}
@@ -131,14 +142,30 @@ const App = () => {
         secondRef={secondRef}
         thirdRef={thirdRef}
         fourthRef={fourthRef}
+        lightDark={lightDark}
+        toggleDarkLight={toggleDarkLight}
       />
-      <FirstSection landingRef={landingRef} />
-      <SecondSection secondRef={secondRef} />
-      <ThirdSection thirdRef={thirdRef} />
+      <FirstSection
+        landingRef={landingRef}
+        lightDark={lightDark}
+        toggleDarkLight={toggleDarkLight}
+      />
+      <SecondSection
+        secondRef={secondRef}
+        lightDark={lightDark}
+        toggleDarkLight={toggleDarkLight}
+      />
+      <ThirdSection
+        thirdRef={thirdRef}
+        lightDark={lightDark}
+        toggleDarkLight={toggleDarkLight}
+      />
       <FourthSection
         modalOpen={modalOpen}
         toggleModal={toggleModal}
         fourthRef={fourthRef}
+        lightDark={lightDark}
+        toggleDarkLight={toggleDarkLight}
       />
       <SideElement />
       <Footer />

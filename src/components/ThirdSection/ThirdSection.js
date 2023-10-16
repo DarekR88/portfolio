@@ -5,7 +5,7 @@ import folderIcon from "../../static/icons/folder-icon.svg";
 
 const projectList = [
   {
-    title: "Custom CMS",
+    title: "CMS from Scratch",
     blurb: "Application that allows a user to update front end styling.",
     url: "https://github.com/DarekR88/cafe-del-sol",
     skills: "JavaScript, React"

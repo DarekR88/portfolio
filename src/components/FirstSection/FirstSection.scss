@@ -1,3 +1,5 @@
+@import "../../Global.scss";
+
 .first-section {
     position: relative;
     display: flex;
@@ -21,7 +23,7 @@
 
 .name {
     font-size: 60px;
-    color: orange;
+    color: $font-primary;
 }
 
 .blurb {
