@@ -24,7 +24,7 @@ const Toolbar = (props) => {
         </a>
       </div>
       <div>
-        <ToggleSwitch />
+        <ToggleSwitch toggleColors={props.toggleDarkLight} />
       </div>
       <div className="nav-items">
         <button

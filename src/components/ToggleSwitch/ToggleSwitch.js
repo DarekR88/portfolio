@@ -5,7 +5,9 @@ const ToggleSwitch = (props) => {
   return (
     <div className="toggle-switch" ref={props.landingRef}>
       <label class="switch">
-        <input type="checkbox"></input>
+        <input type="checkbox" 
+          onChange={props.toggleColors}
+        />
         <span class="slider round"></span>
       </label>
     </div>
