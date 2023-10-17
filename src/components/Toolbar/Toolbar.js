@@ -6,11 +6,18 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 const Toolbar = (props) => {
 
   let toolbarClasses = "toolbar";
+  let toolBarColor = "dark";
 
   if (props.show) {
     toolbarClasses = "toolbar hide";
   } else {
     toolbarClasses = "toolbar show";
+  }
+
+  if (props.darkLight) {
+    toolBarColor = "dark"
+  } else {
+    toolBarColor = "light"
   }
 
   return (
