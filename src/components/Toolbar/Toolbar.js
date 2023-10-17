@@ -1,6 +1,7 @@
 import React from "react";
 import "./Toolbar.scss";
 import HamburgerMenuBtn from "../HamburgerMenuBtn/HamburgerMenuBtn";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 
 const Toolbar = (props) => {
 
@@ -21,6 +22,9 @@ const Toolbar = (props) => {
         >
           DAREK RADKE
         </a>
+      </div>
+      <div>
+        <ToggleSwitch />
       </div>
       <div className="nav-items">
         <button
