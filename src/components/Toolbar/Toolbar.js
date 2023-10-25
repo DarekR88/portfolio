@@ -21,7 +21,7 @@ const Toolbar = (props) => {
   }
 
   return (
-    <header className={toolbarClasses}>
+    <header className={ `${ toolbarClasses } ${ toolBarColor }` }>
       <HamburgerMenuBtn toggleDrawer={props.drawerClickHandler} drawerOpen={props.drawerOpen} />
       <div className="toolbar-logo">
           <a
