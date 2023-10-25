@@ -56,6 +56,18 @@
   transition: transform 0.3s ease-in;
 }
 
+.toolbar.show.dark {
+  .toolbar-logo a {
+    color: white;
+  }
+}
+
+.toolbar.show.light {
+  .toolbar-logo a {
+    color: black;
+  }
+}
+
 
 @media (max-width: 768px) {
   .toolbar {
