@@ -16,7 +16,7 @@ const App = () => {
   const [scrollDir, setScrollDir] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [modalOpen, setModalOpen] = useState(false);
-  const [darkLight, setDarkLight] = useState(false);
+  const [darkLight, setDarkLight] = useState(true);
 
   const toggleModal = () => {
     setModalOpen(!modalOpen);

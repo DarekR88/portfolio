@@ -39,6 +39,10 @@
     transition: all .2s ease-in-out;
 }
 
+.drawer-button.light {
+  color: black;
+}
+
 .drawer-button:hover {
   color: orange;
 }

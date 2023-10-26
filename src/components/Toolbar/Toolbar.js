@@ -35,7 +35,7 @@ const Toolbar = (props) => {
       </div>
       <div className="nav-items">
         <button
-          className="drawer-button"
+          className={ `drawer-button ${ toolBarColor }` }
           onClick={() => {
             props.handleScroll(props.landingRef.current);
           }}
@@ -44,7 +44,7 @@ const Toolbar = (props) => {
         </button>
 
         <button
-          className="drawer-button"
+          className={ `drawer-button ${ toolBarColor }` }
           onClick={() => {
             props.handleScroll(props.secondRef.current);
           }}
@@ -53,7 +53,7 @@ const Toolbar = (props) => {
         </button>
 
                 <button
-          className="drawer-button"
+          className={ `drawer-button ${ toolBarColor }` }
           onClick={() => {
             props.handleScroll(props.thirdRef.current);
           }}
@@ -62,7 +62,7 @@ const Toolbar = (props) => {
         </button>
 
         <button
-          className="drawer-button"
+          className={ `drawer-button ${ toolBarColor }` }
           onClick={() => {
             props.handleScroll(props.fourthRef.current);
           }}
