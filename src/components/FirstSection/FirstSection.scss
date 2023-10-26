@@ -11,6 +11,13 @@
     flex-direction: column;
 }
 
+.first-section.light {
+    background-color: white;
+    p {
+        color: $font-primary;
+    }
+}
+
 .animated-name {
     display: flex;
     font-size: 8rem;
@@ -23,7 +30,7 @@
 
 .name {
     font-size: 60px;
-    color: $font-primary;
+    color: orange;
 }
 
 .blurb {
