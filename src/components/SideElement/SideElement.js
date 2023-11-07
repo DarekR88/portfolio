@@ -3,6 +3,7 @@ import "./SideElement.scss";
 import githubIcon from "../../static/icons/github_icon.svg";
 import { ReactComponent as GithubSvg } from "../../static/icons/github_icon.svg";
 import linkedinIcon from "../../static/icons/linkedin_icon.svg";
+import { ReactComponent as LinkedinSvg } from "../../static/icons/linkedin_icon.svg";
 
 const SideElement = (props) => {
   let darkLight = "dark";
@@ -36,7 +37,7 @@ const SideElement = (props) => {
             rel="noreferrer noopener"
             className="side-a"
           >
-            <img className="svg-icon" src={linkedinIcon} alt="linkedin icon" />
+            <LinkedinSvg className="svg-icon" alt="linkedin icon" />
           </a>
         </li>
         <li>

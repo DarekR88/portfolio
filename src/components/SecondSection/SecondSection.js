@@ -18,7 +18,7 @@ const SecondSection = (props) => {
   return (
     <div className={ `second-section ${ darkLight }` } ref={props.secondRef}>
       <div className="section-container">
-        <SectionTitle title="About" type="left" />
+        <p className="title-about">About</p>
         {/* <p className="section-title left">About</p> */}
         <div className="content-container">
           <div className="description-block">
