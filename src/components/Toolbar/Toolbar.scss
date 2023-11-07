@@ -1,3 +1,5 @@
+@import "../../Global.scss";
+
 .toolbar {
   position: fixed;
   display: flex;
@@ -7,6 +9,11 @@
   width: 100%;
   color: white;
   background: rgba(30, 33, 36, 0.85);
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
+  -ms-transition:     color 1s;
+  -o-transition:      color 1s;
+  transition:         color 1s;
   height: 75px;
   z-index: 300;
 }
@@ -14,12 +21,22 @@
 
 .toolbar-logo {
   color: white;
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
+  -ms-transition:     color 1s;
+  -o-transition:      color 1s;
+  transition:         color 1s;
   font-size: 1.4rem;
 }
 
 .toolbar-logo a {
   text-decoration: none;
   color: white;
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
+  -ms-transition:     color 1s;
+  -o-transition:      color 1s;
+  transition:         color 1s;
   cursor: pointer;
 }
 
@@ -35,12 +52,22 @@
     font-size: 18px; 
     background: transparent;
     color: white; 
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
 
 .drawer-button.light {
   color: black;
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
+  -ms-transition:     color 1s;
+  -o-transition:      color 1s;
+  transition:         color 1s;
 }
 
 .drawer-button:hover {
@@ -56,6 +83,10 @@
   transition: transform 0.3s ease-out;
 }
 
+.toolbar.hide.light{
+  background: transparent;
+}
+
 .toolbar.show{
   transition: transform 0.3s ease-in;
 }
@@ -68,6 +99,11 @@
 
 .toolbar.show.light {
   background: transparent;
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
+  -ms-transition:     color 1s;
+  -o-transition:      color 1s;
+  transition:         color 1s;
   .toolbar-logo a {
     color: black;
   }

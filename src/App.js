@@ -168,7 +168,7 @@ const App = () => {
         darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
-      <SideElement />
+      <SideElement darkLight={darkLight} />
       <Footer />
     </div>
   );

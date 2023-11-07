@@ -8,11 +8,21 @@
     height: 100vh;
     color: white;
     background-color: #1e2124;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
     flex-direction: column;
 }
 
 .first-section.light {
     background-color: white;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
     p {
         color: $font-primary;
     }

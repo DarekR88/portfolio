@@ -4,8 +4,16 @@ import githubIcon from "../../static/icons/github_icon.svg";
 import linkedinIcon from "../../static/icons/linkedin_icon.svg";
 
 const SideElement = (props) => {
+  let darkLight = "dark";
+
+  if (props.darkLight) {
+    darkLight = "dark";
+  } else {
+    darkLight = "light";
+  }
+
   return (
-    <div className="side-element-wrapper">
+    <div className={`side-element-wrapper ${darkLight}`}>
       <ul>
         <li>
           <a

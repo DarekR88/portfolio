@@ -1,9 +1,17 @@
+@import "../../Global.scss";
+
 .side-element-wrapper {
   position: fixed;
   bottom: 0;
   left: 0;
   margin-left: 50px;
   z-index: 5;
+}
+
+.side-element-wrapper.light {
+  a {
+    color: $font-primary;
+  }
 }
 
 .side-element-wrapper ul {
