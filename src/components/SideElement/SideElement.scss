@@ -12,6 +12,9 @@
   a {
     color: $font-primary;
   }
+  .svg-icon {
+    stroke: $font-primary
+  }
 }
 
 .side-element-wrapper ul {
@@ -26,6 +29,7 @@
 .svg-icon {
   height: 20px;
   margin-bottom: 15px;
+  stroke: orange;
 }
 
 .email-link {

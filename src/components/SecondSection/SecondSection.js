@@ -7,7 +7,7 @@ import useWindowSize from "../../hooks/useWindowSize";
 const SecondSection = (props) => {
   const { width } = useWindowSize();
 
-  let darkLight
+  let darkLight = "dark"
 
   if (props.darkLight) {
     darkLight = "dark";
@@ -16,7 +16,7 @@ const SecondSection = (props) => {
   }
 
   return (
-    <div className="second-section" ref={props.secondRef}>
+    <div className={ `second-section ${ darkLight }` } ref={props.secondRef}>
       <div className="section-container">
         <SectionTitle title="About" type="left" />
         {/* <p className="section-title left">About</p> */}

@@ -1,15 +1,19 @@
 import React from "react";
 import "./SideElement.scss";
 import githubIcon from "../../static/icons/github_icon.svg";
+import { ReactComponent as GithubSvg } from "../../static/icons/github_icon.svg";
 import linkedinIcon from "../../static/icons/linkedin_icon.svg";
 
 const SideElement = (props) => {
   let darkLight = "dark";
+  let svgColor = "orange"
 
   if (props.darkLight) {
     darkLight = "dark";
+    svgColor = "orange"
   } else {
     darkLight = "light";
+    svgColor = "#0086cf"
   }
 
   return (
@@ -22,7 +26,7 @@ const SideElement = (props) => {
             rel="noreferrer noopener"
             className="side-a"
           >
-            <img className="svg-icon" src={githubIcon} alt="github icon" />
+            <GithubSvg className="svg-icon" alt="github icon" />
           </a>
         </li>
         <li>
