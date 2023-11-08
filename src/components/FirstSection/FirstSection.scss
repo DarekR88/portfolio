@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: white;
     background-color: #1e2124;
     -webkit-transition: color 1s;
     -moz-transition:    color 1s;
@@ -25,6 +24,15 @@
     transition:         color 1s;
     p {
         color: $font-primary;
+    }
+    .blurb {
+        color: black;
+    }
+}
+
+.first-section.dark {
+    .blurb {
+        color: white;
     }
 }
 

@@ -13,7 +13,7 @@ const FirstSection = (props) => {
 
   return (
     <div className={ `first-section ${ sectionColor }` } ref={props.landingRef}>  
-        <p className="text">Hi, I'm</p>
+        <p className="blurb">Hi, I'm</p>
         <p className="name">Darek Radke</p>
         <p className="blurb">Independent website developer.</p> 
     </div>

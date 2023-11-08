@@ -24,7 +24,7 @@ const SecondSection = (props) => {
           <div className="description-block">
             {/* {width < 768 && <Carousel className="about-carousel" />} */}
 
-            <p className="about-p text">
+            <p className="about-p">
               Hi, my name is Darek Radke. I am self-motivated and passionate
               about creating well-balanced UX/UI experiences. In the constantly
               evolving world of website development, being up-to-date on the
