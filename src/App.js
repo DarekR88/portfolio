@@ -29,7 +29,6 @@ const App = () => {
 
   const toggleDarkLight = () => {
     setDarkLight(!darkLight);
-    console.log(darkLight)
   };
 
   useEffect(() => {
