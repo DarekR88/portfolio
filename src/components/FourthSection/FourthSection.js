@@ -4,6 +4,13 @@ import Modal from "../Modal/Modal";
 
 const FourthSection = (props) => {
   let modal;
+  let darkLight = "dark"
+
+  if (props.darkLight) {
+    darkLight = "dark";
+  } else {
+    darkLight = "light";
+  }
 
   if (props.modalOpen) {
     modal = (
@@ -12,7 +19,7 @@ const FourthSection = (props) => {
   }
 
   return (
-    <div className="fourth-section" ref={props.fourthRef}>
+    <div className={ `fourth-section ${ darkLight }` } ref={props.fourthRef}>
       <div className="section-container">
         {modal}
         <p className="section-title left">Contact</p>

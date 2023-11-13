@@ -155,11 +155,11 @@ const App = () => {
         darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
       />
-      <ThirdSection
+      {/* <ThirdSection
         thirdRef={thirdRef}
         darkLight={darkLight}
         toggleDarkLight={toggleDarkLight}
-      />
+      /> */}
       <FourthSection
         modalOpen={modalOpen}
         toggleModal={toggleModal}
