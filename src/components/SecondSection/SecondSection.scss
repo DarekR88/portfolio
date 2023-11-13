@@ -3,13 +3,21 @@
 .second-section.dark {
     background-color: $background-primary;
     color: white;
-  .light {
-    background-color: white;
-    color: $font-primary
-  }
+    .title-about {
+      font-size: 34px;
+      color: #c2fcf7;
+    }
+  
 }
 
-
+.second-section.light {
+    background-color: white;
+    color: $font-primary;
+    .title-about {
+      font-size: 34px;
+      color: $font-primary;
+    }
+  }
 
 .content-container {
   // border: 1px solid red;
@@ -30,7 +38,7 @@
   .about-p {
     
     @media (min-width: $md) {
-      max-width: 500px;
+      // max-width: 500px;
     }
   }
 
