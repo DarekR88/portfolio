@@ -4,7 +4,6 @@ import HamburgerMenuBtn from "../HamburgerMenuBtn/HamburgerMenuBtn";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 
 const Toolbar = (props) => {
-
   let toolbarClasses = "toolbar";
   let toolBarColor = "dark";
 
@@ -15,27 +14,26 @@ const Toolbar = (props) => {
   }
 
   if (props.darkLight) {
-    toolBarColor = "dark"
+    toolBarColor = "dark";
   } else {
-    toolBarColor = "light"
+    toolBarColor = "light";
   }
 
   return (
-    <header className={ `${ toolbarClasses } ${ toolBarColor }` }>
-      <HamburgerMenuBtn toggleDrawer={props.drawerClickHandler} drawerOpen={props.drawerOpen} />
+    <header className={`${toolbarClasses} ${toolBarColor}`}>
+      <HamburgerMenuBtn
+        toggleDrawer={props.drawerClickHandler}
+        drawerOpen={props.drawerOpen}
+      />
       <div className="toolbar-logo">
-          <a
-          href="https://www.darekradke.com"
-        >
-          DAREK RADKE
-        </a>
+        <a href="https://www.darekradke.com">DAREK RADKE</a>
       </div>
       <div>
         <ToggleSwitch toggleColors={props.toggleDarkLight} />
       </div>
       <div className="nav-items">
         <button
-          className={ `drawer-button ${ toolBarColor }` }
+          className={`drawer-button ${toolBarColor}`}
           onClick={() => {
             props.handleScroll(props.landingRef.current);
           }}
@@ -44,7 +42,7 @@ const Toolbar = (props) => {
         </button>
 
         <button
-          className={ `drawer-button ${ toolBarColor }` }
+          className={`drawer-button ${toolBarColor}`}
           onClick={() => {
             props.handleScroll(props.secondRef.current);
           }}
@@ -52,17 +50,17 @@ const Toolbar = (props) => {
           About
         </button>
 
-                <button
-          className={ `drawer-button ${ toolBarColor }` }
+        {/* <button
+          className={`drawer-button ${toolBarColor}`}
           onClick={() => {
             props.handleScroll(props.thirdRef.current);
           }}
         >
           Projects
-        </button>
+        </button> */}
 
         <button
-          className={ `drawer-button ${ toolBarColor }` }
+          className={`drawer-button ${toolBarColor}`}
           onClick={() => {
             props.handleScroll(props.fourthRef.current);
           }}
