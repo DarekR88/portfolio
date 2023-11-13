@@ -5,7 +5,7 @@ import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";
-import ThirdSection from "./components/ThirdSection/ThirdSection";
+// import ThirdSection from "./components/ThirdSection/ThirdSection";
 import SideElement from "./components/SideElement/SideElement";
 import FourthSection from "./components/FourthSection/FourthSection";
 import Footer from "./components/Footer/Footer";
@@ -168,7 +168,7 @@ const App = () => {
         toggleDarkLight={toggleDarkLight}
       />
       <SideElement darkLight={darkLight} />
-      <Footer />
+      <Footer darkLight={darkLight} />
     </div>
   );
 };

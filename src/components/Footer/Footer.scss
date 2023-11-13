@@ -1,3 +1,5 @@
+@import "../../Global.scss";
+
 .footer {
   position: relative;
   display: flex;
@@ -8,6 +10,13 @@
   background: #1e2124;
   height: 80px;
   z-index: 1;
+}
+
+.footer.light {
+  background-color: white;
+  p {
+    color: $font-primary;
+  }
 }
 
 .footer-blurb {

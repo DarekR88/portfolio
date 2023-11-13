@@ -10,12 +10,20 @@
   flex-direction: column;
   // padding-bottom: 150px;
   // border: 1px solid lime;
+  p {
+    color: white;
+  }
 }
 
 .fourth-section.light {
   background-color: white;
   p {
     color: $font-primary;
+  }
+  button {
+    color: $font-primary;
+    color: $font-primary;
+    border: 2px solid $font-primary;
   }
 }
 

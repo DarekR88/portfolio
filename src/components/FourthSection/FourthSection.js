@@ -25,7 +25,7 @@ const FourthSection = (props) => {
         <p className="section-title left">Contact</p>
         <p className="contact-me text">
           I am always looking for the best fit for my skill set and to
-          collaborate on intersting projects. Send me a message and I'll get
+          collaborate on interesting projects. Send me a message and I'll get
           back to you as soon as possible.
         </p>
         <button onClick={props.toggleModal} className="modal-button">
