@@ -1,8 +1,8 @@
 import React from "react";
 import "./SideElement.scss";
-import githubIcon from "../../static/icons/github_icon.svg";
+// import githubIcon from "../../static/icons/github_icon.svg";
 import { ReactComponent as GithubSvg } from "../../static/icons/github_icon.svg";
-import linkedinIcon from "../../static/icons/linkedin_icon.svg";
+// import linkedinIcon from "../../static/icons/linkedin_icon.svg";
 import { ReactComponent as LinkedinSvg } from "../../static/icons/linkedin_icon.svg";
 
 const SideElement = (props) => {
