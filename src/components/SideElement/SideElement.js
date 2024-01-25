@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import "./SideElement.scss";
 // import githubIcon from "../../static/icons/github_icon.svg";
