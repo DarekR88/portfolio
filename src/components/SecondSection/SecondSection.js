@@ -25,15 +25,19 @@ const SecondSection = (props) => {
               about creating well-balanced UX/UI experiences. In the constantly
               evolving world of website development, being up-to-date on the
               latest technologies and methods is a big part of my programming
-              approach. I also enjoy cooking and road trips.
+              approach. Some things I specialize in: 
             </p>
             <ul className="skill-list">
-              <li>Javascript</li>
+              <li>JavaScript</li>
               <li>React</li>
+              <li>Next.js</li>
               <li>Node</li>
               <li>MongoDB</li>
-              <li>Sass</li>
+              <li>Sass/Less/Tailwind</li>
+              <li>Figma/AdobeXD</li>
               <li>TypeScript</li>
+              <li>MongoDB</li>
+              <li>Express</li>
             </ul>
           </div>
           {/* {width >= 768 && <Carousel className="about-carousel" />} */}
