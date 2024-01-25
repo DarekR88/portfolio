@@ -1,11 +1,7 @@
 import React from "react";
 import "./SecondSection.scss";
-import Carousel from "../Carousel/Carousel";
-import SectionTitle from "../SectionTitle/SectionTitle";
-import useWindowSize from "../../hooks/useWindowSize";
 
 const SecondSection = (props) => {
-  const { width } = useWindowSize();
 
   let darkLight = "dark"
 
