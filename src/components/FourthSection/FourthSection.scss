@@ -18,6 +18,10 @@
     color: #c2fcf7;
     font-size: 34px;
   }
+  .modal-button {
+    color: #c2fcf7;
+    border: 2px solid #c2fcf7;
+  }
 }
 
 .fourth-section.light {
@@ -31,6 +35,10 @@
   }
   button {
     color: $font-primary;
+    color: $font-primary;
+    border: 2px solid $font-primary;
+  }
+  .modal-button {
     color: $font-primary;
     border: 2px solid $font-primary;
   }
@@ -63,13 +71,10 @@
   text-decoration: none;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #c2fcf7; 
   margin-top: 80px;
   padding: 12px 20px;
   font-size: 18px; 
   background: transparent;
-  color: #c2fcf7;
-  border: 2px solid #c2fcf7;
   border-radius: 5px; 
   transition: all .2s ease-in-out;
   cursor: pointer;
